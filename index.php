@@ -76,8 +76,8 @@ alert('Error - ' + xhr.status + ': ' + xhr.statusText);
 </head>
 	<body>
 	<h1>Explore the Pokemon world!</h1>
-		<a href="year" class="category">small Pokemon</a><br />
-		<a href="box" class="category">Large Pokemons</a>
+		<a href="year" class="category">First level of Evolution</a><br />
+		<a href="box" class="category">Last level of Evolution </a>
 		<h3 id="filmtitle">Pokmon</h3>
 		<div id="films">
       <!--
