@@ -28,16 +28,13 @@
   function bondTemplate(film){
     return `
     <div class="film">
-            <b>Film</b>:${film.Film}<br/>
-       <b>Title</b>:${film.Title}<br/>
-       <b>Year</b>:${film.Year}<br/>
-       <b>Director</b>:${film.Director}<br/>
-       <b>Producer</b>:${film.Producer}<br/>
-       <b>Writers</b>${film.Writers}<br/>
-       <b>Composer</b>:${film.Composer}<br/>
-       <b>Bond</b>:${film.Bond}<br/>
-       <b>Budget</b>:${film.Budget}<br/>
-       <b>BoxOffice</b>:${film.BoxOffice}<br/>
+    <b>Pokemon</b>: ${film.Pokemon}<br /> 
+            <b>Name</b>: ${film.Name}<br /> 
+             <b>Type</b>: ${film.Type}<br />
+            <b>Abilities</b>: ${film.Abilities}<br /> 
+            <b>Height</b>: ${film.Height}<br /> 
+            <b>Breeding</b>: ${film.Breeding}<br /> 
+            <b>Gender</b>: ${film.Gender}<br /> 
             <div class="pic"><img src="images/${film.Image}" /></div>
       </div>
     `;
@@ -78,12 +75,27 @@ alert('Error - ' + xhr.status + ': ' + xhr.statusText);
 </script>
 </head>
 	<body>
-<h1>Bond Web Service</h1>
-		<a href="year" class="category">Bond Films By Year</a><br />
-		<a href="box" class="category">Bond Films By International Box Office Totals</a>
-		<h3 id="filmtitle">Title Will Go Here</h3>
+	<h1>Explore the Pokemon world!</h1>
+		<a href="year" class="category">small Pokemon</a><br />
+		<a href="box" class="category">Large Pokemons</a>
+		<h3 id="filmtitle">Pokmon</h3>
 		<div id="films">
-
+      <!--
+			<div class="film">
+        
+            <b>Film</b>: 1<br /> 
+            <b>Title</b>: Dr. No<br /> 
+            <b>Year</b>: 1962<br /> 
+            <b>Director</b>: Terence Young<br /> 
+            <b>Producers</b>: Harry Saltzman and Albert R. Broccoli<br /> 
+            <b>Writers</b>: Richard Maibaum, Johanna Harwood and Berkely Mather<br /> 
+            <b>Composer</b>: Monty Norman<br /> 
+            <b>Bond</b>: Sean Connery<br /> 
+            <b>Budget</b>: $1,000,000.00<br /> 
+            <b>BoxOffice</b>: $59,567,035.00<br /> 
+            <div class="pic"><img src="thumbnails/dr-no.jpg" /></div>
+      </div>
+        -->
 		</div>
 		<div id="output"></div>
 	</body>
