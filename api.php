@@ -37,4 +37,3 @@ if(isset($_REQUEST['cat']))
 }else{//if not data sent, inform calling application
 	echo "Incorrect parameter sent";
 }
-
