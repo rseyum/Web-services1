@@ -17,7 +17,9 @@
     right:10px;
     top:10px;
   }
+  .bg{
   
+  }
   .pic img{
 	max-width:115px;
   }
@@ -75,6 +77,7 @@ alert('Error - ' + xhr.status + ': ' + xhr.statusText);
 </script>
 </head>
 	<body>
+    <div class="bg">
 	<h1>Welcome to the Pokemon world!</h1>
 		<a href="year" class="category">First level of Evolution</a><br />
 		<a href="box" class="category">Last level of Evolution </a>
@@ -82,5 +85,6 @@ alert('Error - ' + xhr.status + ': ' + xhr.statusText);
 		<div id="films">
 		</div>
 		<div id="output"></div>
+    </div>
 	</body>
 </html>
